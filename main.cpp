@@ -26,9 +26,9 @@ int main() {
     accountBalance = beginningBalance + totalCharges - totalCredits;
 
     if ( accountBalance > creditLimit ) {
-      cout << "Account:\t" << accountNumber  << endl;
-      cout << "Credit Limit:\t" << creditLimit << endl;
-      cout << "Balance:\t" << accountBalance << endl;
+      cout << "Account: " << accountNumber  << endl;
+      cout << "Credit Limit: " << creditLimit << endl;
+      cout << "Balance: " << accountBalance << endl;
       cout << "Credit limit exceeded." << endl;
     }
   }
